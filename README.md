@@ -13,12 +13,14 @@ How does Twitter have different pages for each of its 300 million users? How can
 
 ## What is Sinatra?
 
-Sinatra is a Domain Specific Language, or DSL, used for writing web applications. It was created by [Blake Mizerany](https://github.com/bmizerany) with the goal of creating applications quickly. Unlike Ruby on Rails, which encourages certain patterns and "convention over configuration", Sinatra is designed to be a flexible way to create web applications. 
+Sinatra is a Domain Specific Language, or DSL, used for writing web applications. It was created by [Blake Mizerany](https://github.com/bmizerany) with the goal of creating applications quickly. Unlike Ruby on Rails, which encourages certain patterns and "convention over configuration", Sinatra is designed to be a flexible way to create web applications. It's used by companies such as Apple, BBC, GitHub, and LinkedIn. 
 
-## What's a Web Application? 
+Essentially, Sinatra is nothing more than some pre-written methods that we can use in our applications. By using these methods, we can create our own web apps quickly and easily. 
 
-Unlike static websites, web applications generate dynamic content based on some type of user input or other factors. git c
+Although it's lightweight, Sinatra can be extended with other gems to build out full-featured web applications, including databases. 
+
 
 ## Resources
 
-* [Ruby Learning Interview](http://rubylearning.com/blog/2009/08/11/blake-mizerany-how-do-i-learn-and-master-sinatra/)
+* [Blake Mizerany - Ruby Learning Interview](http://rubylearning.com/blog/2009/08/11/blake-mizerany-how-do-i-learn-and-master-sinatra/)
+* [Companies Using Sinatra](http://www.sinatrarb.com/wild.html)
