@@ -47,7 +47,7 @@ First, make sure sinatra is installed by running `gem install sinatra` in your t
 
 The simplest Sinatra application would be:
 
-File: `sinatra_basic.rb`
+File: `app.rb`
 ```ruby
 require 'sinatra'
 
@@ -56,10 +56,10 @@ get '/' do
 end
 ```
 
-You could start this web application by running `ruby sinatra_basic.rb`. You'll see something similar to:
+You could start this web application by running `ruby app.rb`. You'll see something similar to:
 
 ```
-$ ruby sinatra_basic.rb
+$ ruby app.rb
 == Sinatra (v1.4.6) has taken the stage on 4567 for development with backup from Thin
 Thin web server (v1.6.3 codename Protein Powder)
 Maximum connections set to 1024
