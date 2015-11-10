@@ -39,7 +39,7 @@ Essentially, Sinatra is nothing more than some pre-written methods that we can i
 
 ## Why Sinatra Before Rails
 
-We've all heard of "Ruby on Rails" and how powerful it is. You can build impressive web applications in mere hours! How amazing. Rails is in fact amazing, and you can in fact, build powerful complicated web applications in just a few short hours. But, to be perfectly honest, Rails can feel like a big black box of magic. Most people, when they learn Rails for the first time, literally say "Its like magic!". But we're developers, and we know that magic isn't real and that other smart developers just built an impressive framework.
+We've all heard of "Ruby on Rails" and how powerful it is. You can build impressive web applications in mere hours! How amazing. Rails is in fact amazing, and you can in fact, build powerful complicated web applications in just a few short hours. But to be perfectly honest, Rails can feel like a big black box of magic. Most people, when they learn Rails for the first time, literally say "Its like magic!". But we're developers, and we know that magic isn't real and that other smart developers just built an impressive framework.
 
 So that means it's important to understand the basic concepts of Rails before diving into Rails itself. **Enter Sinatra.**
 
@@ -47,6 +47,8 @@ So that means it's important to understand the basic concepts of Rails before di
 Sinatra is considered a _light weight_ framework where the responsibility of app structure and communication falls solely on the developer. Sinatra doesn't give you a lot to get started with. There is no way to auto-generate files and directories, no way for the app to make assumptions about routes, or "Sinatra magic".
 
 Because of this, working with Sinatra allows you to dive in deep with the major concepts of MVC. You are required to manually set up routes and connect them to other pieces of your application. Without this manual setup, your application does not automatically know how to communicate with your database, or what HTML files to load in the browser. And even more importantly, without a manual setup, you lose connection to the major components of a web application, and in particular, all the moving pieces of MVC, a system for building web applications that governs 90% of the worlds' apps.
+
+So introduce yourself to Sinatra. Get to know him, and get to know him well, because the better your foundation, the more you'll be able to get to know (and like) Rails.
 
 ## The Sinatra DSL
 
