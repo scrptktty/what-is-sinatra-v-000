@@ -2,7 +2,7 @@
 
 ## Overview
 
-We'll introduce you to the concept of web frameworks and Sinatra in particular. You'll make sure Sinatra is installed in your computer and run a simmple web application with it. 
+We'll introduce you to the concept of web frameworks and Sinatra in particular. You'll make sure Sinatra is installed in your computer and run a simple web application with it. 
 
 ## Objectives
 
