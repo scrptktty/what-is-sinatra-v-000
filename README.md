@@ -73,6 +73,8 @@ get '/' do
 end
 ```
 
+>Note: If you're using the Learn IDE, there are two lines in this file that you will need to uncomment to get this to work!
+
 You could start this web application by running `ruby app.rb`. You'll see something similar to:
 
 ```
@@ -82,6 +84,8 @@ Thin web server (v1.6.3 codename Protein Powder)
 Maximum connections set to 1024
 Listening on localhost:4567, CTRL+C to stop
 ```
+
+>Note: If you're using the Learn IDE, that last line will look more like this: `Listening on 192.241.134.186:30000, CTRL+C to stop` and you'll have to navigate to the address show (in this case: `192.241.134.186:30000`) to see your site!
 
 This is telling us that Sinatra has started a web application running on your computer listening to HTTP requests at port `4567`, the Sinatra default. If you start this application and navigate to http://localhost:4567 you'll see "Hello, World!" in your browser. Go back to your terminal running the Sinatra application and stop it by typing `CTRL+C`. You should see:
 
