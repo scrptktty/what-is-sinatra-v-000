@@ -43,7 +43,7 @@ In addition to being a great tool for certain projects, Sinatra is a great way t
 
 ## Why Sinatra Before Rails
 
-We've all heard of "Ruby on Rails" and how powerful it is. You can build impressive web applications in mere hours! How amazing. Most people, when they learn Rails for the first time, literally say "It's like magic!". But we're developers, and we know that magic isn't real and that other smart developers just built an impressive framework.
+We've all heard of "Ruby on Rails" and how powerful it is. You can build impressive web applications in mere hours! How amazing. Most people, when they learn Rails for the first time, literally say "It's like magic!". But we're developers, and we know that magic isn't real and that other smart dexvelopers just built an impressive framework.
 
 That means it's important to understand the basic concepts of Rails before diving into Rails itself. **Enter Sinatra.**
 
@@ -70,7 +70,7 @@ require 'sinatra'
 
 # Add these two lines below if you're on the Learn IDE!
 # set :bind, ENV["HOST_IP"]
-# set :port, ENV["HOST_PORT"]
+# set :port, ENV["HTTP_PORT"]
 
 get '/' do
   "Hello, World!"
