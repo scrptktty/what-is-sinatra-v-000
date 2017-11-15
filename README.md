@@ -68,36 +68,37 @@ File: `app.rb`
 ```ruby
 require 'sinatra'
 
-# Add these two lines below if you're on the Learn IDE!
-# set :bind, ENV["HOST_IP"]
-# set :port, ENV["HTTP_PORT"]
+class App < Sinatra::Base
 
-get '/' do
-  "Hello, World!"
+  get '/' do
+    "Hello, World!"
+  end
+
 end
 ```
 
->Note: If you're using the Learn IDE, there are two lines in this file that you will need to uncomment to get this to work!
-
-You could start this web application by running `ruby app.rb`. You'll see something similar to:
+You could start this web application by running `rackup app.rb`. You'll see something similar to:
 
 ```
-$ ruby app.rb
-== Sinatra (v1.4.6) has taken the stage on 4567 for development with backup from Thin
-Thin web server (v1.6.3 codename Protein Powder)
-Maximum connections set to 1024
-Listening on localhost:4567, CTRL+C to stop
+$ rackup app.rb
+Puma starting in single mode...
+* Version 3.10.0 (ruby 2.3.0-p0), codename: Russell's Teapot
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on tcp://localhost:9292
+Use Ctrl-C to stop
 ```
 
 >Note: If you're using the Learn IDE, that last line will look more like this: `Listening on 192.241.134.186:30000, CTRL+C to stop` and you'll have to navigate to the address shown (in this case: `192.241.134.186:30000`) to see your site!
 
-This is telling us that Sinatra has started a web application running on your computer listening to HTTP requests at port `4567`, the Sinatra default. If you start this application and navigate to http://localhost:4567 you'll see "Hello, World!" in your browser. Go back to your terminal running the Sinatra application and stop it by typing `CTRL+C`. You should see:
+This is telling us that Sinatra has started a web application running on your computer listening to HTTP requests at port `9292`, the Sinatra default. If you start this application and navigate to http://localhost:9292 you'll see "Hello, World!" in your browser. Go back to your terminal running the Sinatra application and stop it by typing `CTRL+C`. You should see:
 
 ```
-Listening on localhost:4567, CTRL+C to stop
-^CStopping ...
-Stopping ...
-== Sinatra has ended his set (crowd applauds)
+* Listening on tcp://localhost:9292
+Use Ctrl-C to stop
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2017-11-15 09:41:19 -0500 ===
+- Goodbye!
 [00:01:11] (wip-lesson) what-is-sinatra
 $
 ```
